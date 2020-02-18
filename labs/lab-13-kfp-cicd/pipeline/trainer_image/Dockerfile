@@ -1,4 +1,4 @@
-FROM gcr.io/mlops-workshop/mlops-dev:latest
+FROM gcr.io/dherin-mlops/mlops-dev:latest
 RUN pip install -U fire cloudml-hypertune
 WORKDIR /app
 COPY train.py .
